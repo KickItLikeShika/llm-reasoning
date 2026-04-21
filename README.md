@@ -14,6 +14,7 @@ Reward Design:
 2. Soft reward when <reasoning> and <answer> show up in order
 3. Large sparse reward (+3) when the number parsed from <answer> matches the gold.
 
-Model Weights: https://huggingface.co/KickItLikeShika/Qwen2.5-1.5B-Instruct-SFT-GRPO-GSM8K
-W&B Report: https://wandb.ai/egyttsteam/huggingface/reports/Qwen2-5-1-5B-Reasoning-SFT-GRPO---VmlldzoxNjYxMTM3Mg
+- Model Weights: https://huggingface.co/KickItLikeShika/Qwen2.5-1.5B-Instruct-SFT-GRPO-GSM8K
+- W&B Report: https://wandb.ai/egyttsteam/huggingface/reports/Qwen2-5-1-5B-Reasoning-SFT-GRPO---VmlldzoxNjYxMTM3Mg
+
 <img width="2157" height="678" alt="Screenshot 2026-04-21 at 11 18 30 AM" src="https://github.com/user-attachments/assets/ff09186e-73d6-46db-a4d6-d1bf8333e42e" />
