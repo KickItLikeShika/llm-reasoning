@@ -1,5 +1,5 @@
 # LLM Reasoning
-Trained Qwen2.5 1.5B model to reason to solve grade-level math with explicit structure: a short scratchpad in <reasoning>…</reasoning> and a single final number in <answer>…</answer>.
+Trained Qwen2.5 1.5B model to reason to solve grade-level math with explicit structure: a short scratchpad in `<reasoning>…</reasoning>` and a single final number in `<answer>…</answer>`.
 Started from pure reinforcement learning from outcome-only signals, I first followed the widely shared [willccbb GRPO demo](https://gist.github.com/willccbb/4676755236bb08cab5f4e54a0475d6fb).
 In practice, GRPO alone with reward tweaks didn’t work, even after several iterations on the reward, answers stayed unreliable and the XML reasoning format was broken. The model simply hadn’t seen enough correct structured completions to anchor the pattern.
 
