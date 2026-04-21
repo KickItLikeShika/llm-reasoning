@@ -49,7 +49,7 @@ def main():
     release_model(model, tokenizer)
 
     model, tokenizer = sft.load_sft_adapter_for_grpo()
-    reason_grpo.run_grpo(model, tokenizer)
+    grpo.run_grpo(model, tokenizer)
 
 
 if __name__ == "__main__":
